@@ -114,7 +114,7 @@ const get_data_from_table = async () => {
     return {
         "max_value_txn_hash": largets_hash,
         "max_txns_with_address": await findMaxTransactionCount(hashCounts),
-        "date_max_txns": "DATE-ON-WHICH-MAX-TRANSACTIONS-HAVE-BEEN-DONE",
+        // "date_max_txns": "DATE-ON-WHICH-MAX-TRANSACTIONS-HAVE-BEEN-DONE",
     }
 }
 
